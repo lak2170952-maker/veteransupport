@@ -80,7 +80,7 @@ body {
 .hero {
   position: relative;
   color: var(--white);
-  min-height: 18px;
+  min-height: 180px;
   background-image: url("../images/hero-veterans.jpg");
   background-size: cover;
   background-position: center;
@@ -92,7 +92,7 @@ body {
 }
 
 .hero-content {
-  max-width: 720px;
+  max-width: 180px;
   margin: 0 auto;
 }
 
