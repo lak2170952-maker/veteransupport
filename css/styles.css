@@ -80,10 +80,20 @@ body {
 .hero {
   position: relative;
   color: var(--white);
-  min-height: 180px;
+  min-height: 280px;
   background-image: url("../images/hero-veterans.jpg");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-img {
+  display: block;
+  margin: 0 auto 1.5rem;
+  width: 70%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 12px;
 }
 
 .hero-overlay {
